@@ -3,7 +3,7 @@ name: Sync Google Drive Files
 on:
   workflow_dispatch:
   repository_dispatch:
-    types: [on-demand-sync-drive-files]
+    types: [google_drive_update]
 
 jobs:
   sync-drive-to-repo:
